@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4EE26443-4AE3-45BE-A423-8D95D7BD20D0}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="WwisePooler" ID="{4EE26443-4AE3-45BE-A423-8D95D7BD20D0}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Pain" ID="{8CDF1072-FBE5-4137-B1C1-E5935C600C9F}" ShortID="588555847">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="pain4" ID="{34E542B9-0B43-4D45-86AC-399B5C24234D}" ShortID="67710795">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="pain4" ID="{A76B5E72-C3C2-40EF-9B23-21ACEEE6999C}">
+									<Language>SFX</Language>
+									<AudioFile>pain4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="872224772"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="pain4" ID="{A76B5E72-C3C2-40EF-9B23-21ACEEE6999C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pain5" ID="{3014C0B7-01E5-40BB-8C6E-EEDDFFFDB35C}" ShortID="153934328">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="pain5" ID="{CFEA9708-92AF-467C-90E4-5D1B8214A121}">
+									<Language>SFX</Language>
+									<AudioFile>pain5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="17558014"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="pain5" ID="{CFEA9708-92AF-467C-90E4-5D1B8214A121}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pain1" ID="{ED75D86B-6D5E-4A53-8E61-67D5B7EF4A5E}" ShortID="554798245">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="pain1" ID="{25AD7160-CE1D-412E-828D-C1C5C72855E7}">
+									<Language>SFX</Language>
+									<AudioFile>pain1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="984079118"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="pain1" ID="{25AD7160-CE1D-412E-828D-C1C5C72855E7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pain3" ID="{5837AB4C-BF89-4471-958B-E58D9E3A334B}" ShortID="306268298">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="pain3" ID="{DC2EB03A-E7EE-431D-91ED-AD1B12766B9A}">
+									<Language>SFX</Language>
+									<AudioFile>pain3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="582804664"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="pain3" ID="{DC2EB03A-E7EE-431D-91ED-AD1B12766B9A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pain2" ID="{200E51CF-B325-4EB1-92A1-06EF5381EA0D}" ShortID="906734808">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="pain2" ID="{DF0C93D6-CCF3-44E2-99AD-4AB7D058C477}">
+									<Language>SFX</Language>
+									<AudioFile>pain2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="435850645"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="pain2" ID="{DF0C93D6-CCF3-44E2-99AD-4AB7D058C477}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pain6" ID="{A9460355-44E1-4C9D-9DF1-4FE8BE73AA38}" ShortID="149366250">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="pain6" ID="{2DCB2E59-4E06-4EBF-9610-0394EA933322}">
+									<Language>SFX</Language>
+									<AudioFile>pain6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="108657649"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="pain6" ID="{2DCB2E59-4E06-4EBF-9610-0394EA933322}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pain7" ID="{EAD8883F-CBA2-4FAA-8B00-E2E5D4F71893}" ShortID="788376434">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="pain7" ID="{1448BFD5-C9B5-4B3B-AB8F-534E50068142}">
+									<Language>SFX</Language>
+									<AudioFile>pain7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="478390415"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="pain7" ID="{1448BFD5-C9B5-4B3B-AB8F-534E50068142}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
