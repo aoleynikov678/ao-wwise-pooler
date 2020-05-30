@@ -38,16 +38,23 @@ namespace ao.wwisepooler
             
             for (int i = 0; i < poolSize; i++)
             {
-                var poolable = Instantiate(prefab, transform, true);
-                poolable.gameObject.SetActive(false);
-                
-                p.Add(poolable);
+                CreateAndAdd(p, false);
             }
 
             return p;
         }
 
-        public Poolable RequestPoolable()
+        private Poolable CreateAndAdd(List<Poolable> p, bool setActive)
+        {
+            var poolable = Instantiate(prefab, transform, true);
+            poolable.gameObject.SetActive(setActive);
+                
+            p.Add(poolable);
+
+            return poolable;
+        }
+
+        public Poolable RequestFromPool()
         {
             foreach (var poolable in pool)
             {
@@ -58,7 +65,12 @@ namespace ao.wwisepooler
                 }
             }
 
-            return null;
+            return CreateAndAdd(pool, true);
+        }
+
+        public void ReturnToPool(Poolable poolable)
+        {
+            poolable.gameObject.SetActive(false);
         }
     }
 }

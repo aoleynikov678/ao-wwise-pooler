@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 namespace ao.wwisepooler
@@ -7,17 +8,25 @@ namespace ao.wwisepooler
         [SerializeField] private AK.Wwise.Event audioEvent;
         [SerializeField] private KeyCode inputKey;
 
+
         private void Update()
         {
             if (Input.GetKeyDown(inputKey))
             {
-                var poolable = Pooler.Instance.RequestPoolable();
+                var poolable = Pooler.Instance.RequestFromPool();
+                StartCoroutine(Hide(poolable));
             }
         }
 
         public void SetInputKey(KeyCode keyCode)
         {
             inputKey = keyCode;
+        }
+
+        private IEnumerator Hide(Poolable poolable)
+        {
+            yield return new WaitForSeconds(0.5f);
+            Pooler.Instance.ReturnToPool(poolable);
         }
     }
 }
