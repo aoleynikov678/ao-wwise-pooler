@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f255f084185427b95a5277924fb63dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5271422878202782454, guid: ae25be83fcfb2524483d648a0649e9d9, type: 3}
+  prefab: {fileID: 7662260265178406965, guid: b3faaf217bfa3a8428b6a4825933cdb3, type: 3}
   count: 10
 --- !u!1 &705507993
 GameObject:
@@ -274,7 +274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &923028396
 Transform:
   m_ObjectHideFlags: 0
@@ -305,7 +305,7 @@ MonoBehaviour:
   pivot: {fileID: 963194228}
   radius: 20
   height: 1
-  cellPrefab: {fileID: 8238636656903139800, guid: 6aaefcfc2c35ffa42a45a4b0fed69f5b,
+  cellPrefab: {fileID: 8238636656903139800, guid: ae25be83fcfb2524483d648a0649e9d9,
     type: 3}
 --- !u!1 &963194225
 GameObject:

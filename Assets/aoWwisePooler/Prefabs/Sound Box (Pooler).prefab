@@ -146,3 +146,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93ed7d175de4490f884053a385539e56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 806ca55f1ff9d324385b852f34537a85,
+      type: 2}
+  inputKey: 0

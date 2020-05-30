@@ -46,9 +46,19 @@ namespace ao.wwisepooler
 
             return p;
         }
-    }
 
-    public abstract class Poolable : MonoBehaviour
-    {
+        public Poolable RequestPoolable()
+        {
+            foreach (var poolable in pool)
+            {
+                if (!poolable.gameObject.activeInHierarchy)
+                {
+                    poolable.gameObject.SetActive(true);
+                    return poolable;
+                }
+            }
+
+            return null;
+        }
     }
 }
