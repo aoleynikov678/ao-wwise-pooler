@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1996139369	Pain			\Default Work Unit\Pain	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	17558014	pain5	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Windows\SFX\pain5_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Pain\pain5		34822
+	108657649	pain6	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Windows\SFX\pain6_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Pain\pain6		33428
+	435850645	pain2	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Windows\SFX\pain2_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Pain\pain2		33184
+	478390415	pain7	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Windows\SFX\pain7_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Pain\pain7		34932
+	582804664	pain3	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Windows\SFX\pain3_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Pain\pain3		36356
+	872224772	pain4	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Windows\SFX\pain4_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Pain\pain4		31600
+	984079118	pain1	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Windows\SFX\pain1_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Pain\pain1		32216
+

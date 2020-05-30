@@ -4,7 +4,13 @@
 		<WorkUnit Name="WwisePooler" ID="{4EE26443-4AE3-45BE-A423-8D95D7BD20D0}" PersistMode="Standalone">
 			<ChildrenList>
 				<RandomSequenceContainer Name="Pain" ID="{8CDF1072-FBE5-4137-B1C1-E5935C600C9F}" ShortID="588555847">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="MainAttenuation" ID="{3C0267C4-79DA-4182-B783-681F3E819D47}" WorkUnitID="{B6E80E77-6428-4E14-8440-46896F6BA486}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
 						</Reference>

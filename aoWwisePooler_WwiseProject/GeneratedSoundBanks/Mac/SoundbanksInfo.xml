@@ -20,6 +20,40 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1996139369" Name="Pain" ObjectPath="\Events\Default Work Unit\Pain" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.357551" DurationMax="0.411474">
+					<IncludedMemoryFiles>
+						<File Id="17558014" Language="SFX">
+							<ShortName>pain5.wav</ShortName>
+							<Path>SFX\pain5_10C4C929.wem</Path>
+						</File>
+						<File Id="108657649" Language="SFX">
+							<ShortName>pain6.wav</ShortName>
+							<Path>SFX\pain6_10C4C929.wem</Path>
+						</File>
+						<File Id="435850645" Language="SFX">
+							<ShortName>pain2.wav</ShortName>
+							<Path>SFX\pain2_10C4C929.wem</Path>
+						</File>
+						<File Id="478390415" Language="SFX">
+							<ShortName>pain7.wav</ShortName>
+							<Path>SFX\pain7_10C4C929.wem</Path>
+						</File>
+						<File Id="582804664" Language="SFX">
+							<ShortName>pain3.wav</ShortName>
+							<Path>SFX\pain3_10C4C929.wem</Path>
+						</File>
+						<File Id="872224772" Language="SFX">
+							<ShortName>pain4.wav</ShortName>
+							<Path>SFX\pain4_10C4C929.wem</Path>
+						</File>
+						<File Id="984079118" Language="SFX">
+							<ShortName>pain1.wav</ShortName>
+							<Path>SFX\pain1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
