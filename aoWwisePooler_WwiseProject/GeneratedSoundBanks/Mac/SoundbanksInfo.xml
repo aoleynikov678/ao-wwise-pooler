@@ -21,7 +21,7 @@
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1996139369" Name="Pain" ObjectPath="\Events\Default Work Unit\Pain" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="5.000000" DurationMax="5.041633">
+				<Event Id="77978275" Name="Ambient" ObjectPath="\Events\Default Work Unit\Ambient" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="5.000000" DurationMax="5.041633">
 					<IncludedMemoryFiles>
 						<File Id="171574132" Language="SFX">
 							<ShortName>amb_03.wav</ShortName>

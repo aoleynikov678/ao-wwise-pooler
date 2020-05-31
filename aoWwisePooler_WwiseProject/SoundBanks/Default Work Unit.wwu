@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Master" ID="{0945C7CB-42EA-479A-A043-31E7D69DE542}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Pain" ID="{871EB123-7903-4DA5-AAC7-DA6520B5A846}" WorkUnitID="{8DF86212-7740-4B6B-9A1C-F7331D2F6906}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient" ID="{871EB123-7903-4DA5-AAC7-DA6520B5A846}" WorkUnitID="{8DF86212-7740-4B6B-9A1C-F7331D2F6906}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

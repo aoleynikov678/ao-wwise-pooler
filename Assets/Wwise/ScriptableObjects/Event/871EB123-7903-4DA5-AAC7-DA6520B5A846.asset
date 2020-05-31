@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5759da07c9ee2e944b2c13c0f96cbc77, type: 3}
   m_Name: 871EB123-7903-4DA5-AAC7-DA6520B5A846
   m_EditorClassIdentifier: 
-  objectName: Pain
-  id: 1996139369
+  objectName: Ambient
+  id: 77978275
   guid: 871EB123-7903-4DA5-AAC7-DA6520B5A846

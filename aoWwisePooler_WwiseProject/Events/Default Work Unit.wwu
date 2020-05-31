@@ -3,12 +3,12 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{8DF86212-7740-4B6B-9A1C-F7331D2F6906}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Pain" ID="{871EB123-7903-4DA5-AAC7-DA6520B5A846}">
+				<Event Name="Ambient" ID="{871EB123-7903-4DA5-AAC7-DA6520B5A846}">
 					<ChildrenList>
 						<Action Name="" ID="{F55AF79C-7B76-4495-82BC-077EB1F8A928}" ShortID="772593236">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Pain" ID="{8CDF1072-FBE5-4137-B1C1-E5935C600C9F}" WorkUnitID="{4EE26443-4AE3-45BE-A423-8D95D7BD20D0}"/>
+									<ObjectRef Name="Ambient" ID="{8CDF1072-FBE5-4137-B1C1-E5935C600C9F}" WorkUnitID="{4EE26443-4AE3-45BE-A423-8D95D7BD20D0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

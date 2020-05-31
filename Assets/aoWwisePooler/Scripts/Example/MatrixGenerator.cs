@@ -30,12 +30,6 @@ namespace ao.wwisepooler
             var z = center.z + radius * Mathf.Cos(rad);
             var cell = Instantiate(cellPrefab, transform, true);
             cell.transform.position = new Vector3(x, height, z);
-
-            var input = cell.GetComponent<IHaveInput>();
-            if (input != null && counter < 9)
-            {
-                input.SetInputKey(KeyCode.Alpha1 + counter);
-            }
         }
     }
 }
