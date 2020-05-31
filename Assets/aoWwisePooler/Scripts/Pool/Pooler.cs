@@ -48,6 +48,7 @@ namespace ao.wwisepooler
         {
             var poolable = Instantiate(prefab, transform, true);
             poolable.gameObject.SetActive(setActive);
+            poolable.SetPooler(this);
                 
             p.Add(poolable);
 
