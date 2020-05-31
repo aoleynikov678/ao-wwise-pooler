@@ -12,14 +12,15 @@ namespace ao.wwisepooler
             poolableTransform = transform;
         }
         
-        public override void SetPooler(Pooler p)
+        public override void SetPooler(Pooler pooler, Pool pool)
         {
-            pooler = p;
+            this.pooler = pooler;
+            this.pool = pool;
         }
 
-        public void Post(AK.Wwise.Event audioEvent, GameObject target)
+        public void Post(AK.Wwise.Event audioEvent, GameObject target, string targetName)
         {
-            AkSoundEngine.RegisterGameObj(gameObject, target.name);
+            AkSoundEngine.RegisterGameObj(gameObject, targetName);
             targetObj = target;
             audioEvent.Post(gameObject, (uint)AkCallbackType.AK_EndOfEvent, OnCallback);
         }
