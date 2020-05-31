@@ -8,14 +8,20 @@ namespace ao.wwisepooler
         [SerializeField] private float speed = 10;
         
         private float timer = 0;
+        private float randomPhase = 0;
+
+        private void Awake()
+        {
+            randomPhase = Random.value * 10;
+        }
 
         private void Update()
         {
             timer += Time.deltaTime * speed;
 
-            var y = Mathf.Sin(timer) * height;
+            var z = Mathf.Sin(randomPhase + timer) * height;
             
-            transform.position = new Vector3(transform.position.x, y, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y, z);
         }
     }
 }

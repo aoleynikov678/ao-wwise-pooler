@@ -15,8 +15,9 @@ GameObject:
   - component: {fileID: 8238636656903139797}
   - component: {fileID: 8238636656903139798}
   - component: {fileID: 8238636656903139799}
+  - component: {fileID: 4307784883585375597}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Sound Box (No Pooler)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,8 +147,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35eab18dec10c9b41ae61234b60555bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eventPostType: 0
   audioEvent:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 806ca55f1ff9d324385b852f34537a85,
       type: 2}
+  inputKey: 0
+  probability: 1
+  minDelay: 1
+  maxDelay: 2
+--- !u!114 &4307784883585375597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8238636656903139800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50988e392f6742b8bb9e3cfa40777071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  height: 5
+  speed: 1

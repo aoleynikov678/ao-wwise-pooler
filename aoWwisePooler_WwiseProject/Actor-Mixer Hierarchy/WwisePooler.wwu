@@ -166,28 +166,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="amb_01" ID="{FBD7CD9E-9A68-4333-9DEE-844CAB697460}" ShortID="340167247">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="amb_01" ID="{B249EBC3-692B-483B-AD25-B4C2B4C4CB17}">
-									<Language>SFX</Language>
-									<AudioFile>amb_01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="79383930"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="amb_01" ID="{B249EBC3-692B-483B-AD25-B4C2B4C4CB17}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="amb_02" ID="{6D37F4BE-FAE3-4382-9BFC-A348FF036BC6}" ShortID="954203488">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -230,6 +208,28 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="amb_03" ID="{EFF9CDC0-257E-45BB-83F4-434D23B4A0AC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_04" ID="{360BF885-9CB8-4E61-825B-7199A42D976C}" ShortID="873791718">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_04" ID="{53996C75-49C3-429A-AC3E-23C766115DDA}">
+									<Language>SFX</Language>
+									<AudioFile>amb_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="889643882"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_04" ID="{53996C75-49C3-429A-AC3E-23C766115DDA}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

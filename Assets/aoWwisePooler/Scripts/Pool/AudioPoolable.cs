@@ -19,12 +19,14 @@ namespace ao.wwisepooler
 
         public void Post(AK.Wwise.Event audioEvent, GameObject target)
         {
+            AkSoundEngine.RegisterGameObj(gameObject, target.name);
             targetObj = target;
             audioEvent.Post(gameObject, (uint)AkCallbackType.AK_EndOfEvent, OnCallback);
         }
 
         private void OnCallback(object in_cookie, AkCallbackType in_type, AkCallbackInfo in_info)
         {
+            AkSoundEngine.UnregisterGameObj(gameObject);
             pooler.ReturnToPool(this);
         }
 

@@ -6,7 +6,9 @@ namespace ao.wwisepooler
     public class Pooler : MonoBehaviour
     {
         [SerializeField] private Poolable prefab;
-        [SerializeField] private int count;
+        [SerializeField] private int size;
+        [SerializeField] private int activeCount = 0;
+        
         private List<Poolable> pool = new List<Poolable>();
         
         private static Pooler instance;
@@ -29,7 +31,7 @@ namespace ao.wwisepooler
         {
             Instance = this;
 
-            pool = GeneratePool(count);
+            pool = GeneratePool(size);
         }
 
         private List<Poolable> GeneratePool(int poolSize)
@@ -62,15 +64,18 @@ namespace ao.wwisepooler
                 if (!poolable.gameObject.activeInHierarchy)
                 {
                     poolable.gameObject.SetActive(true);
+                    activeCount++;
                     return poolable;
                 }
             }
 
+            activeCount++;
             return CreateAndAdd(pool, true);
         }
 
         public void ReturnToPool(Poolable poolable)
         {
+            activeCount--;
             poolable.gameObject.SetActive(false);
         }
     }

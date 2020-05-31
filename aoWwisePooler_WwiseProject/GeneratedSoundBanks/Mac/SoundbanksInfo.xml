@@ -21,12 +21,8 @@
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1996139369" Name="Pain" ObjectPath="\Events\Default Work Unit\Pain" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="5.000000" DurationMax="5.000522">
+				<Event Id="1996139369" Name="Pain" ObjectPath="\Events\Default Work Unit\Pain" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="5.000000" DurationMax="5.041633">
 					<IncludedMemoryFiles>
-						<File Id="79383930" Language="SFX">
-							<ShortName>amb_01.wav</ShortName>
-							<Path>SFX\amb_01_10C4C929.wem</Path>
-						</File>
 						<File Id="171574132" Language="SFX">
 							<ShortName>amb_03.wav</ShortName>
 							<Path>SFX\amb_03_10C4C929.wem</Path>
@@ -34,6 +30,10 @@
 						<File Id="405979616" Language="SFX">
 							<ShortName>amb_02.wav</ShortName>
 							<Path>SFX\amb_02_10C4C929.wem</Path>
+						</File>
+						<File Id="889643882" Language="SFX">
+							<ShortName>amb_04.wav</ShortName>
+							<Path>SFX\amb_04_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

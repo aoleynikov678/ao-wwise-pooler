@@ -2,7 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1996139369	Pain			\Default Work Unit\Pain	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	79383930	amb_01	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\amb_01_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Pain\amb_01		882064
 	171574132	amb_03	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\amb_03_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Pain\amb_03		882156
 	405979616	amb_02	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\amb_02_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Pain\amb_02		960064
+	889643882	amb_04	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\amb_04_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Pain\amb_04		889408
 
