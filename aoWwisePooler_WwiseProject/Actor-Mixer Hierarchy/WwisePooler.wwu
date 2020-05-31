@@ -154,7 +154,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="amb_02" ID="{6D37F4BE-FAE3-4382-9BFC-A348FF036BC6}" ShortID="954203488">
+						<Sound Name="Pad - Aeolus" ID="{B5436DB0-9F53-4DD4-88B4-453936C39E50}" ShortID="31497447">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
@@ -164,19 +164,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="amb_02" ID="{822752DC-D859-4C22-A505-FE18F1D0D3AD}">
+								<AudioFileSource Name="Pad - Aeolus" ID="{2E2D8153-361C-46AC-B0CC-50F1FA60F4BB}">
 									<Language>SFX</Language>
-									<AudioFile>amb_02.wav</AudioFile>
+									<AudioFile>Pad - Aeolus.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="405979616"/>
+										<MediaID ID="643173418"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="amb_02" ID="{822752DC-D859-4C22-A505-FE18F1D0D3AD}" Platform="Linked"/>
+								<ActiveSource Name="Pad - Aeolus" ID="{2E2D8153-361C-46AC-B0CC-50F1FA60F4BB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="amb_03" ID="{07C2DD48-CCBE-43AA-9749-A71A0FEB0ECC}" ShortID="818783678">
+						<Sound Name="Pad - Catcher" ID="{27D21D6C-E7C7-4936-8C0C-E0A40CB6202E}" ShortID="646620737">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
@@ -186,19 +186,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="amb_03" ID="{EFF9CDC0-257E-45BB-83F4-434D23B4A0AC}">
+								<AudioFileSource Name="Pad - Catcher" ID="{599E064B-5B4A-497B-A1A0-50173915A34C}">
 									<Language>SFX</Language>
-									<AudioFile>amb_03.wav</AudioFile>
+									<AudioFile>Pad - Catcher.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="171574132"/>
+										<MediaID ID="364455666"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="amb_03" ID="{EFF9CDC0-257E-45BB-83F4-434D23B4A0AC}" Platform="Linked"/>
+								<ActiveSource Name="Pad - Catcher" ID="{599E064B-5B4A-497B-A1A0-50173915A34C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="amb_04" ID="{360BF885-9CB8-4E61-825B-7199A42D976C}" ShortID="873791718">
+						<Sound Name="Pad - Temple" ID="{7EFFBC7E-113A-4D2A-A023-CD7A5692EE4F}" ShortID="826629058">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
@@ -208,22 +208,27 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="amb_04" ID="{53996C75-49C3-429A-AC3E-23C766115DDA}">
+								<AudioFileSource Name="Pad - Temple" ID="{02E2B59B-1744-46D8-AE34-2950F4A74FAD}">
 									<Language>SFX</Language>
-									<AudioFile>amb_04.wav</AudioFile>
+									<AudioFile>Pad - Temple.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="889643882"/>
+										<MediaID ID="491470385"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="amb_04" ID="{53996C75-49C3-429A-AC3E-23C766115DDA}" Platform="Linked"/>
+								<ActiveSource Name="Pad - Temple" ID="{02E2B59B-1744-46D8-AE34-2950F4A74FAD}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Kicks" ID="{C225286B-8FD0-4B17-B164-195526610B6A}" ShortID="922329743">
 					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-20</Value>
@@ -231,6 +236,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="MainAttenuation" ID="{3C0267C4-79DA-4182-B783-681F3E819D47}" WorkUnitID="{B6E80E77-6428-4E14-8440-46896F6BA486}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
 						</Reference>
@@ -281,94 +289,6 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Hit - Kick 2" ID="{2627D178-C0F9-4DDD-857E-DC570D52ECAD}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Hit - Kick 3" ID="{D77A3F47-EE3E-4601-A313-5F8E282DED88}" ShortID="171442313">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Hit - Kick 3" ID="{E290E8EF-2C01-4F21-BECB-A44797CF91D1}">
-									<Language>SFX</Language>
-									<AudioFile>Hit - Kick 3.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1067621056"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Hit - Kick 3" ID="{E290E8EF-2C01-4F21-BECB-A44797CF91D1}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Hit - Perc 2" ID="{49AC9695-5B44-4476-9CBD-96D6EE468C00}" ShortID="123373539">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Hit - Perc 2" ID="{9F80F194-B460-40E6-AF41-9E6B967AA589}">
-									<Language>SFX</Language>
-									<AudioFile>Hit - Perc 2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="113785800"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Hit - Perc 2" ID="{9F80F194-B460-40E6-AF41-9E6B967AA589}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Hit - Shaker 1" ID="{4EB99578-D316-4E1C-9AEC-9A5B3207D725}" ShortID="120835034">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Hit - Shaker 1" ID="{5DAD10CD-A88F-4BF3-870F-FA6FA1125EBA}">
-									<Language>SFX</Language>
-									<AudioFile>Hit - Shaker 1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="561080973"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Hit - Shaker 1" ID="{5DAD10CD-A88F-4BF3-870F-FA6FA1125EBA}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Hit - Shaker 2" ID="{F551EFA0-03F1-405A-AA02-56657E221911}" ShortID="542196110">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Hit - Shaker 2" ID="{0A028674-C85E-490E-91B1-39323AF9DC06}">
-									<Language>SFX</Language>
-									<AudioFile>Hit - Shaker 2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="164460483"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Hit - Shaker 2" ID="{0A028674-C85E-490E-91B1-39323AF9DC06}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Hit - Taiko 3" ID="{BC3D145B-B5EB-4B1C-BA51-2C0B8D864AA7}" ShortID="1052785386">

@@ -114,8 +114,8 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: 72d29d6fd8011674281712347072fdbc,
       type: 2}
   probability: 1
-  minDelay: 1
-  maxDelay: 1
+  minDelay: 2
+  maxDelay: 2
   animator: {fileID: 1320843508507471473}
   poolType: 1
 --- !u!114 &7790871956132536205

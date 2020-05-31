@@ -21,32 +21,24 @@
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<IncludedEvents>
-				<Event Id="77978275" Name="Ambient" ObjectPath="\Events\Default Work Unit\Ambient" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="5.000000" DurationMax="5.041633">
+				<Event Id="77978275" Name="Ambient" ObjectPath="\Events\Default Work Unit\Ambient" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="8.727279" DurationMax="17.454557">
 					<IncludedMemoryFiles>
-						<File Id="171574132" Language="SFX">
-							<ShortName>amb_03.wav</ShortName>
-							<Path>SFX\amb_03_10C4C929.wem</Path>
+						<File Id="364455666" Language="SFX">
+							<ShortName>Pad - Catcher.wav</ShortName>
+							<Path>SFX\Pad - Catcher_10C4C929.wem</Path>
 						</File>
-						<File Id="405979616" Language="SFX">
-							<ShortName>amb_02.wav</ShortName>
-							<Path>SFX\amb_02_10C4C929.wem</Path>
+						<File Id="491470385" Language="SFX">
+							<ShortName>Pad - Temple.wav</ShortName>
+							<Path>SFX\Pad - Temple_10C4C929.wem</Path>
 						</File>
-						<File Id="889643882" Language="SFX">
-							<ShortName>amb_04.wav</ShortName>
-							<Path>SFX\amb_04_10C4C929.wem</Path>
+						<File Id="643173418" Language="SFX">
+							<ShortName>Pad - Aeolus.wav</ShortName>
+							<Path>SFX\Pad - Aeolus_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="138295086" Name="Kicks" ObjectPath="\Events\Default Work Unit\Kicks" DurationType="OneShot" DurationMin="0.176485" DurationMax="1.411701">
+				<Event Id="138295086" Name="Kicks" ObjectPath="\Events\Default Work Unit\Kicks" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.002540" DurationMax="1.411701">
 					<IncludedMemoryFiles>
-						<File Id="113785800" Language="SFX">
-							<ShortName>Hit - Perc 2.wav</ShortName>
-							<Path>SFX\Hit - Perc 2_10C4C929.wem</Path>
-						</File>
-						<File Id="164460483" Language="SFX">
-							<ShortName>Hit - Shaker 2.wav</ShortName>
-							<Path>SFX\Hit - Shaker 2_10C4C929.wem</Path>
-						</File>
 						<File Id="225622574" Language="SFX">
 							<ShortName>Hit - Kick 2.wav</ShortName>
 							<Path>SFX\Hit - Kick 2_10C4C929.wem</Path>
@@ -55,17 +47,9 @@
 							<ShortName>Hit - Taiko 3.wav</ShortName>
 							<Path>SFX\Hit - Taiko 3_10C4C929.wem</Path>
 						</File>
-						<File Id="561080973" Language="SFX">
-							<ShortName>Hit - Shaker 1.wav</ShortName>
-							<Path>SFX\Hit - Shaker 1_10C4C929.wem</Path>
-						</File>
 						<File Id="1056329728" Language="SFX">
 							<ShortName>Hit - Kick 1.wav</ShortName>
 							<Path>SFX\Hit - Kick 1_10C4C929.wem</Path>
-						</File>
-						<File Id="1067621056" Language="SFX">
-							<ShortName>Hit - Kick 3.wav</ShortName>
-							<Path>SFX\Hit - Kick 3_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

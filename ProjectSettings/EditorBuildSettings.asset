@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/aoWwisePooler/Example/Scenes/Pooler.unity
+    guid: ea9dfa019ba055c4eac8adff21d64648
   m_configObjects: {}

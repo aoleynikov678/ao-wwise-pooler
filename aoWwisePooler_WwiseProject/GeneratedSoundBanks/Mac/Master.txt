@@ -3,14 +3,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	138295086	Kicks			\Default Work Unit\Kicks	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	113785800	Hit - Perc 2	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\Hit - Perc 2_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Kicks\Hit - Perc 2		205632
-	164460483	Hit - Shaker 2	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\Hit - Shaker 2_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Kicks\Hit - Shaker 2		162900
-	171574132	amb_03	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\amb_03_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Ambient\amb_03		882156
 	225622574	Hit - Kick 2	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\Hit - Kick 2_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Kicks\Hit - Kick 2		249088
-	405979616	amb_02	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\amb_02_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Ambient\amb_02		960064
+	364455666	Pad - Catcher	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\Pad - Catcher_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Ambient\Pad - Catcher		3079048
+	491470385	Pad - Temple	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\Pad - Temple_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Ambient\Pad - Temple		2342816
 	538612796	Hit - Taiko 3	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\Hit - Taiko 3_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Kicks\Hit - Taiko 3		176912
-	561080973	Hit - Shaker 1	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\Hit - Shaker 1_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Kicks\Hit - Shaker 1		153644
-	889643882	amb_04	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\amb_04_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Ambient\amb_04		889408
+	643173418	Pad - Aeolus	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\Pad - Aeolus_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Ambient\Pad - Aeolus		1539556
 	1056329728	Hit - Kick 1	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\Hit - Kick 1_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Kicks\Hit - Kick 1		249056
-	1067621056	Hit - Kick 3	D:\_dev\tests\aoWwisePooler\aoWwisePooler_WwiseProject\.cache\Mac\SFX\Hit - Kick 3_10C4C929.wem		\Actor-Mixer Hierarchy\WwisePooler\Kicks\Hit - Kick 3		31196
 
