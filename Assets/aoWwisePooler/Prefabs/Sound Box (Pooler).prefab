@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8238636656903139802}
   - component: {fileID: 8238636656903139801}
   - component: {fileID: 5271422878202782454}
+  - component: {fileID: 8980950936825787193}
   m_Layer: 0
   m_Name: Sound Box (Pooler)
   m_TagString: Untagged
@@ -112,3 +113,17 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: 806ca55f1ff9d324385b852f34537a85,
       type: 2}
   inputKey: 0
+--- !u!114 &8980950936825787193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8238636656903139800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50988e392f6742b8bb9e3cfa40777071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  height: 5
+  speed: 1

@@ -303,7 +303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   count: 9
   pivot: {fileID: 963194228}
-  radius: 20
+  radius: 5
   height: 1
   cellPrefab: {fileID: 8238636656903139800, guid: ae25be83fcfb2524483d648a0649e9d9,
     type: 3}

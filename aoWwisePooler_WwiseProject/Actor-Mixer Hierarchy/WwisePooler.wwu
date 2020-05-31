@@ -9,7 +9,154 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="MainAttenuation" ID="{3C0267C4-79DA-4182-B783-681F3E819D47}" WorkUnitID="{B6E80E77-6428-4E14-8440-46896F6BA486}"/>
+							<Custom CreatedFrom="{3C0267C4-79DA-4182-B783-681F3E819D47}">
+								<Attenuation Name="MainAttenuation (Custom)" ID="{4F4794F6-8AE3-423B-A23B-F7D7D60AC549}" ShortID="12273133">
+									<PropertyList>
+										<Property Name="ConeUse" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{45E727E2-9A55-40F4-A87E-61984A496F7A}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>29.78057</XPos>
+															<YPos>-7.56512</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>36.9906</XPos>
+															<YPos>-11.80707</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>48.11912</XPos>
+															<YPos>-17.09067</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>55.48589</XPos>
+															<YPos>-21.7272</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>68.18182</XPos>
+															<YPos>-27.18722</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>83.0721</XPos>
+															<YPos>-45.24901</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="LowPassFilter" ID="{01F3332D-A308-46E0-AD63-BFD2BF65B3DD}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>34.48276</XPos>
+															<YPos>17</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>60.34483</XPos>
+															<YPos>38</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>79.9373</XPos>
+															<YPos>68</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="HighPassFilter" ID="{E0DBF6B5-6890-4F76-8C46-C1264140F503}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>28.05643</XPos>
+															<YPos>8</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>62.53918</XPos>
+															<YPos>31</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>80.40752</XPos>
+															<YPos>56</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
@@ -19,7 +166,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="pain4" ID="{34E542B9-0B43-4D45-86AC-399B5C24234D}" ShortID="67710795">
+						<Sound Name="amb_01" ID="{FBD7CD9E-9A68-4333-9DEE-844CAB697460}" ShortID="340167247">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
@@ -29,19 +176,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="pain4" ID="{A76B5E72-C3C2-40EF-9B23-21ACEEE6999C}">
+								<AudioFileSource Name="amb_01" ID="{B249EBC3-692B-483B-AD25-B4C2B4C4CB17}">
 									<Language>SFX</Language>
-									<AudioFile>pain4.wav</AudioFile>
+									<AudioFile>amb_01.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="872224772"/>
+										<MediaID ID="79383930"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="pain4" ID="{A76B5E72-C3C2-40EF-9B23-21ACEEE6999C}" Platform="Linked"/>
+								<ActiveSource Name="amb_01" ID="{B249EBC3-692B-483B-AD25-B4C2B4C4CB17}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="pain5" ID="{3014C0B7-01E5-40BB-8C6E-EEDDFFFDB35C}" ShortID="153934328">
+						<Sound Name="amb_02" ID="{6D37F4BE-FAE3-4382-9BFC-A348FF036BC6}" ShortID="954203488">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
@@ -51,19 +198,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="pain5" ID="{CFEA9708-92AF-467C-90E4-5D1B8214A121}">
+								<AudioFileSource Name="amb_02" ID="{822752DC-D859-4C22-A505-FE18F1D0D3AD}">
 									<Language>SFX</Language>
-									<AudioFile>pain5.wav</AudioFile>
+									<AudioFile>amb_02.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="17558014"/>
+										<MediaID ID="405979616"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="pain5" ID="{CFEA9708-92AF-467C-90E4-5D1B8214A121}" Platform="Linked"/>
+								<ActiveSource Name="amb_02" ID="{822752DC-D859-4C22-A505-FE18F1D0D3AD}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="pain1" ID="{ED75D86B-6D5E-4A53-8E61-67D5B7EF4A5E}" ShortID="554798245">
+						<Sound Name="amb_03" ID="{07C2DD48-CCBE-43AA-9749-A71A0FEB0ECC}" ShortID="818783678">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
@@ -73,104 +220,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="pain1" ID="{25AD7160-CE1D-412E-828D-C1C5C72855E7}">
+								<AudioFileSource Name="amb_03" ID="{EFF9CDC0-257E-45BB-83F4-434D23B4A0AC}">
 									<Language>SFX</Language>
-									<AudioFile>pain1.wav</AudioFile>
+									<AudioFile>amb_03.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="984079118"/>
+										<MediaID ID="171574132"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="pain1" ID="{25AD7160-CE1D-412E-828D-C1C5C72855E7}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="pain3" ID="{5837AB4C-BF89-4471-958B-E58D9E3A334B}" ShortID="306268298">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="pain3" ID="{DC2EB03A-E7EE-431D-91ED-AD1B12766B9A}">
-									<Language>SFX</Language>
-									<AudioFile>pain3.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="582804664"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="pain3" ID="{DC2EB03A-E7EE-431D-91ED-AD1B12766B9A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="pain2" ID="{200E51CF-B325-4EB1-92A1-06EF5381EA0D}" ShortID="906734808">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="pain2" ID="{DF0C93D6-CCF3-44E2-99AD-4AB7D058C477}">
-									<Language>SFX</Language>
-									<AudioFile>pain2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="435850645"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="pain2" ID="{DF0C93D6-CCF3-44E2-99AD-4AB7D058C477}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="pain6" ID="{A9460355-44E1-4C9D-9DF1-4FE8BE73AA38}" ShortID="149366250">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="pain6" ID="{2DCB2E59-4E06-4EBF-9610-0394EA933322}">
-									<Language>SFX</Language>
-									<AudioFile>pain6.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="108657649"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="pain6" ID="{2DCB2E59-4E06-4EBF-9610-0394EA933322}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="pain7" ID="{EAD8883F-CBA2-4FAA-8B00-E2E5D4F71893}" ShortID="788376434">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="pain7" ID="{1448BFD5-C9B5-4B3B-AB8F-534E50068142}">
-									<Language>SFX</Language>
-									<AudioFile>pain7.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="478390415"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="pain7" ID="{1448BFD5-C9B5-4B3B-AB8F-534E50068142}" Platform="Linked"/>
+								<ActiveSource Name="amb_03" ID="{EFF9CDC0-257E-45BB-83F4-434D23B4A0AC}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
