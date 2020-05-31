@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using ao.wwisepooler.helpers.editor;
 
 namespace ao.wwisepooler
 {
@@ -9,7 +10,8 @@ namespace ao.wwisepooler
         public string id;
         public Poolable prefab;
         public int size;
-        public int activeCount;
+        
+        [DisplayWithoutEdit] public int activeCount = 0;
 
         private List<Poolable> objectsInPool = new List<Poolable>();
         public List<Poolable> ObjectsInPool => objectsInPool;

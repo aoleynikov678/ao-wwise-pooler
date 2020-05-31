@@ -13,16 +13,19 @@ namespace ao.wwisepooler
         [SerializeField] private float minDelay = 1f;
         [SerializeField] private float maxDelay = 2f;
 
+        [SerializeField] private Animator animator;
+
         private float prevEventTime = 0;
         private float delay;
 
         private EventPoster eventPoster;
         private string cachedName;
+        private static readonly int TweenParam = Animator.StringToHash("Tween");
 
         private void Awake()
         {
             delay = Random.Range(minDelay, maxDelay);
-            prevEventTime = delay;
+            prevEventTime = -delay;
             cachedName = gameObject.name;
             eventPoster = new PoolEventPoster();
         }
@@ -36,6 +39,8 @@ namespace ao.wwisepooler
                 Profiler.BeginSample("EventPoster");
                 eventPoster.Post(audioEvent, gameObject, cachedName);
                 Profiler.EndSample();
+                
+                animator.SetTrigger(TweenParam);
             }
         }
     }

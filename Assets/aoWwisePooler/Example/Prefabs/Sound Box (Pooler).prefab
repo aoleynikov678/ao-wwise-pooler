@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 8238636656903139802}
   - component: {fileID: 8238636656903139801}
   - component: {fileID: 3296793710524914535}
-  - component: {fileID: 8980950936825787193}
+  - component: {fileID: 7790871956132536205}
+  - component: {fileID: 1320843508507471473}
   m_Layer: 0
   m_Name: Sound Box (Pooler)
   m_TagString: Untagged
@@ -61,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4ca4cbf676528a24b91787a5a87ef887, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -107,16 +108,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35eab18dec10c9b41ae61234b60555bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventPostType: 1
   audioEvent:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 806ca55f1ff9d324385b852f34537a85,
       type: 2}
   probability: 1
-  minDelay: 1
-  maxDelay: 1
---- !u!114 &8980950936825787193
+  minDelay: 3
+  maxDelay: 4
+  animator: {fileID: 1320843508507471473}
+--- !u!114 &7790871956132536205
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,8 +126,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 8238636656903139800}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50988e392f6742b8bb9e3cfa40777071, type: 3}
+  m_Script: {fileID: 11500000, guid: 0644193b3072440682f4288fd2e4ddae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  height: 5
+  range: 5
   speed: 1
+--- !u!95 &1320843508507471473
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8238636656903139800}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 398d2b7f6fc967e4fb1f6a68987874e1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
