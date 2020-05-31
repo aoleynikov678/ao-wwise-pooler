@@ -73,7 +73,7 @@ namespace ao.wwisepooler
             return poolDict.ContainsKey(poolID);
         }
 
-        public Poolable RequestFromPool(string poolID)
+        public T RequestFromPool<T>(string poolID) where T : Poolable
         {
             if (!PoolExists(poolID))
             {
@@ -89,11 +89,11 @@ namespace ao.wwisepooler
                 poolDict[poolID].activeCount++;
                 
                 poolable.gameObject.SetActive(true);
-                return poolable;
+                return (T) poolable;
             }
 
             poolDict[poolID].activeCount++;
-            return CreateAndAdd(poolDict[poolID], poolDict[poolID].ObjectsInPool, true);
+            return (T) CreateAndAdd(poolDict[poolID], poolDict[poolID].ObjectsInPool, true);
         }
 
         public void ReturnToPool(Poolable poolable)

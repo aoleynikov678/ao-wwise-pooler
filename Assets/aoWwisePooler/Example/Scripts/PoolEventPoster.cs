@@ -9,13 +9,8 @@ namespace ao.wwisepooler
         
         public override void Post(Event audioEvent, GameObject gameObject, string name)
         {
-            var poolable = (AudioPoolable) Pooler.Instance.RequestFromPool(poolName);
+            var poolable = Pooler.Instance.RequestFromPool<AudioPoolable>(poolName);
             poolable.Post(audioEvent, gameObject, name);
         }
-    }
-
-    public enum AudioPool
-    {
-        Ambient
     }
 }
