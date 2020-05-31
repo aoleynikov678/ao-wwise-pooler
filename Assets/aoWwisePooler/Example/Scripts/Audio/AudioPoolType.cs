@@ -1,6 +1,6 @@
 namespace ao.wwisepooler
 {
-    public enum AudioPool
+    public enum AudioPoolType
     {
         Ambient
     }
