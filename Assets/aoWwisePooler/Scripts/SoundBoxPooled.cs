@@ -8,12 +8,12 @@ namespace ao.wwisepooler
         [SerializeField] private AK.Wwise.Event audioEvent;
         [SerializeField] private KeyCode inputKey;
 
-
         private void Update()
         {
             if (Input.GetKeyDown(inputKey))
             {
-                var poolable = Pooler.Instance.RequestFromPool();
+                var poolable = (AudioPoolable) Pooler.Instance.RequestFromPool();
+                poolable.Post(audioEvent, gameObject);
                 StartCoroutine(Hide(poolable));
             }
         }

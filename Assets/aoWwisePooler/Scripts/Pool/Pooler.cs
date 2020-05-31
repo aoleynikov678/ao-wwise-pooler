@@ -22,7 +22,7 @@ namespace ao.wwisepooler
                 return instance;
             }
 
-            set { instance = value; }
+            private set { instance = value; }
         }
 
         private void Awake()
