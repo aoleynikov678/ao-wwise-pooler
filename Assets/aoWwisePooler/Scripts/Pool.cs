@@ -8,19 +8,18 @@ namespace ao.wwisepooler
     [Serializable]
     public class Pool
     {
-        public string id;
-        public Poolable prefab;
-        public int size;
+        public string Id;
+        public Poolable Prefab;
+        public int Size;
         
-        [DisplayWithoutEdit] public int activeCount = 0;
+        [DisplayWithoutEdit] public int ActiveCount = 0;
 
         private List<Poolable> objectsInPool = new List<Poolable>();
-        public List<Poolable> ObjectsInPool => objectsInPool;
-
         private Transform parent;
 
+        public List<Poolable> ObjectsInPool => objectsInPool;
         public Transform Parent => parent;
-
+        
         public void SetObjects(List<Poolable> objs)
         {
             objectsInPool = objs;
