@@ -37,6 +37,38 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="138295086" Name="Kicks" ObjectPath="\Events\Default Work Unit\Kicks" DurationType="OneShot" DurationMin="0.176485" DurationMax="1.411701">
+					<IncludedMemoryFiles>
+						<File Id="113785800" Language="SFX">
+							<ShortName>Hit - Perc 2.wav</ShortName>
+							<Path>SFX\Hit - Perc 2_10C4C929.wem</Path>
+						</File>
+						<File Id="164460483" Language="SFX">
+							<ShortName>Hit - Shaker 2.wav</ShortName>
+							<Path>SFX\Hit - Shaker 2_10C4C929.wem</Path>
+						</File>
+						<File Id="225622574" Language="SFX">
+							<ShortName>Hit - Kick 2.wav</ShortName>
+							<Path>SFX\Hit - Kick 2_10C4C929.wem</Path>
+						</File>
+						<File Id="538612796" Language="SFX">
+							<ShortName>Hit - Taiko 3.wav</ShortName>
+							<Path>SFX\Hit - Taiko 3_10C4C929.wem</Path>
+						</File>
+						<File Id="561080973" Language="SFX">
+							<ShortName>Hit - Shaker 1.wav</ShortName>
+							<Path>SFX\Hit - Shaker 1_10C4C929.wem</Path>
+						</File>
+						<File Id="1056329728" Language="SFX">
+							<ShortName>Hit - Kick 1.wav</ShortName>
+							<Path>SFX\Hit - Kick 1_10C4C929.wem</Path>
+						</File>
+						<File Id="1067621056" Language="SFX">
+							<ShortName>Hit - Kick 3.wav</ShortName>
+							<Path>SFX\Hit - Kick 3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>

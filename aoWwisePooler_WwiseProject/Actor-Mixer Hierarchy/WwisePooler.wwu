@@ -222,6 +222,179 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Kicks" ID="{C225286B-8FD0-4B17-B164-195526610B6A}" ShortID="922329743">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Hit - Kick 1" ID="{71727A30-F145-454A-815D-EB264CF0AAD6}" ShortID="969304935">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit - Kick 1" ID="{644BDFFA-963B-4C9F-A3A4-09FAE5963065}">
+									<Language>SFX</Language>
+									<AudioFile>Hit - Kick 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1056329728"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit - Kick 1" ID="{644BDFFA-963B-4C9F-A3A4-09FAE5963065}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit - Kick 2" ID="{CE3ABE87-DA18-437E-9E47-CC9AD6ED7204}" ShortID="610389200">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit - Kick 2" ID="{2627D178-C0F9-4DDD-857E-DC570D52ECAD}">
+									<Language>SFX</Language>
+									<AudioFile>Hit - Kick 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="225622574"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit - Kick 2" ID="{2627D178-C0F9-4DDD-857E-DC570D52ECAD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit - Kick 3" ID="{D77A3F47-EE3E-4601-A313-5F8E282DED88}" ShortID="171442313">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit - Kick 3" ID="{E290E8EF-2C01-4F21-BECB-A44797CF91D1}">
+									<Language>SFX</Language>
+									<AudioFile>Hit - Kick 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1067621056"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit - Kick 3" ID="{E290E8EF-2C01-4F21-BECB-A44797CF91D1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit - Perc 2" ID="{49AC9695-5B44-4476-9CBD-96D6EE468C00}" ShortID="123373539">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit - Perc 2" ID="{9F80F194-B460-40E6-AF41-9E6B967AA589}">
+									<Language>SFX</Language>
+									<AudioFile>Hit - Perc 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="113785800"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit - Perc 2" ID="{9F80F194-B460-40E6-AF41-9E6B967AA589}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit - Shaker 1" ID="{4EB99578-D316-4E1C-9AEC-9A5B3207D725}" ShortID="120835034">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit - Shaker 1" ID="{5DAD10CD-A88F-4BF3-870F-FA6FA1125EBA}">
+									<Language>SFX</Language>
+									<AudioFile>Hit - Shaker 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="561080973"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit - Shaker 1" ID="{5DAD10CD-A88F-4BF3-870F-FA6FA1125EBA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit - Shaker 2" ID="{F551EFA0-03F1-405A-AA02-56657E221911}" ShortID="542196110">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit - Shaker 2" ID="{0A028674-C85E-490E-91B1-39323AF9DC06}">
+									<Language>SFX</Language>
+									<AudioFile>Hit - Shaker 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="164460483"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit - Shaker 2" ID="{0A028674-C85E-490E-91B1-39323AF9DC06}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit - Taiko 3" ID="{BC3D145B-B5EB-4B1C-BA51-2C0B8D864AA7}" ShortID="1052785386">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3A417DD-82BC-4028-9FB2-6D8A674289D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E9171D7-5F5E-4B65-9BC4-782A80985CCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit - Taiko 3" ID="{EE36C703-3CBA-41E5-9537-BA804ACC469F}">
+									<Language>SFX</Language>
+									<AudioFile>Hit - Taiko 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="538612796"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit - Taiko 3" ID="{EE36C703-3CBA-41E5-9537-BA804ACC469F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

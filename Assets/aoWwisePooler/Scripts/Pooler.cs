@@ -87,6 +87,13 @@ namespace ao.wwisepooler
         
         private List<Poolable> GeneratePool(Pool poolDescriptor)
         {
+            if (poolDescriptor.size <= 0)
+                return null;
+            
+            var go = new GameObject($"{poolDescriptor.id}");
+            go.transform.parent = transform;
+            poolDescriptor.SetParent(go.transform);
+            
             var p = new List<Poolable>();
             
             for (int i = 0; i < poolDescriptor.size; i++)
@@ -99,7 +106,7 @@ namespace ao.wwisepooler
 
         private Poolable CreateAndAdd(Pool poolDescriptor, List<Poolable> p, bool setActive)
         {
-            var poolable = Instantiate(poolDescriptor.prefab, transform, true);
+            var poolable = Instantiate(poolDescriptor.prefab, poolDescriptor.Parent, true);
             poolable.gameObject.SetActive(setActive);
             poolable.SetPooler(this, poolDescriptor);
                 

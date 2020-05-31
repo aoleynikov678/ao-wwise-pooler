@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Kicks" ID="{4A6096C4-C3C7-42EF-975E-5EF33E0F1CA6}">
+					<ChildrenList>
+						<Action Name="" ID="{749640F1-CEC8-4090-ABBA-F2E54357F5AA}" ShortID="948691806">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Kicks" ID="{C225286B-8FD0-4B17-B164-195526610B6A}" WorkUnitID="{4EE26443-4AE3-45BE-A423-8D95D7BD20D0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

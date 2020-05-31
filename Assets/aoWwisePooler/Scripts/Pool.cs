@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using ao.wwisepooler.helpers.editor;
+using UnityEngine;
 
 namespace ao.wwisepooler
 {
@@ -16,9 +17,18 @@ namespace ao.wwisepooler
         private List<Poolable> objectsInPool = new List<Poolable>();
         public List<Poolable> ObjectsInPool => objectsInPool;
 
+        private Transform parent;
+
+        public Transform Parent => parent;
+
         public void SetObjects(List<Poolable> objs)
         {
             objectsInPool = objs;
+        }
+
+        public void SetParent(Transform p)
+        {
+            parent = p;
         }
     }
 }
