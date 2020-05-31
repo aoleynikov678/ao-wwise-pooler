@@ -36,6 +36,9 @@ namespace ao.wwisepooler
 
         #region Public API
         
+        /// <summary>
+        /// Initialize all the pools from the list
+        /// </summary>
         public void Initialize()
         {
             Instance = this;
@@ -52,6 +55,9 @@ namespace ao.wwisepooler
             }
         }
         
+        /// <summary>
+        /// Get the poolable object of the type from the pool
+        /// </summary>
         public T RequestFromPool<T>(string poolID) where T : Poolable
         {
             if (!PoolExists(poolID))
@@ -75,6 +81,9 @@ namespace ao.wwisepooler
             return (T) CreateAndAdd(poolDict[poolID], poolDict[poolID].ObjectsInPool, true);
         }
 
+        /// <summary>
+        /// Return pbject to the pool
+        /// </summary>
         public void ReturnToPool(Poolable poolable)
         {
             poolable.Pool.ActiveCount--;
